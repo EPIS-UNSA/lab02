@@ -36,5 +36,6 @@ var fechaAniversario = new Date(2022,08,15);
 alert(fechaAniversario);
 var fechaActual = new Date(2022,08,14);
 document.write(fechaActual);
-var faltan = fechaAniversario - fechaActual;// el nro representa la diferencia en milisegundos
+var diferencia = fechaAniversario - fechaActual;// el nro representa la diferencia en milisegundos
+var faltan = diferencia/(1000*60*60*24);
 document.write("faltan " + faltan + " dias para el aniversario de Arequipa");
