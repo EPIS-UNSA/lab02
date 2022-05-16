@@ -23,8 +23,9 @@ for(var i = 0; i<7; i++){
 
 // EJERCICIO NRO 2.
 var texto = prompt("ingrese una palabra");
+var textoInvertido = "";
 alert(texto.length);
 for(var i = texto.length-1; i >=0; i--){
-    var textoInvertido = textoInvertido + texto[i];
+    textoInvertido = textoInvertido + texto[i];
 }
 document.write(textoInvertido);
