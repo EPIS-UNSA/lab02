@@ -22,10 +22,17 @@ for(var i = 0; i<7; i++){
 */
 
 // EJERCICIO NRO 2.
-var texto = prompt("ingrese una palabra");
+/*var texto = prompt("ingrese una palabra");
 var textoInvertido = "";
 alert(texto.length);
 for(var i = texto.length-1; i >=0; i--){
     textoInvertido = textoInvertido + texto[i];
 }
 document.write(textoInvertido);
+*/
+
+// EJERCICIO NRO 3.
+var fechaAniversario = new Date(2022,08,15);
+alert(fechaAniversario);
+var fechaActual = new Date();
+document.write(fechaActual);
