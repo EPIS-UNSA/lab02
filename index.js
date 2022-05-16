@@ -8,6 +8,8 @@ for(var i = 0; i<7; i++){
 */
 var dia = new Date();
 document.write(dia);
+var valor = dia.getDay();
+document.write(valor);
 var doa = 'el gato de mama';
 var cantidad = doa.slice(3, -2);
 document.write(cantidad);
