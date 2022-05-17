@@ -32,10 +32,17 @@ document.write(textoInvertido);
 */
 
 // EJERCICIO NRO 3.
-var fechaAniversario = new Date(2022,08,15);
+/*var fechaAniversario = new Date(2022,08,15);
 alert(fechaAniversario);
 var fechaActual = new Date();
 document.write(fechaActual + "<br>");
 var diferencia = fechaAniversario - fechaActual;// el nro representa la diferencia en milisegundos
 var faltan = diferencia/(1000*60*60*24);
 document.write("faltan " + faltan + " dias para el aniversario de Arequipa");
+*/
+
+// EJERCICIO NRO 4
+
+var link = prompt("ingrese la url del meet");
+
+
