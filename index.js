@@ -44,9 +44,12 @@ document.write("faltan " + faltan + " dias para el aniversario de Arequipa");
 // EJERCICIO NRO 4
 
 var link = prompt("ingrese la url del meet");
-alert(link[1]);
+//alert(link[1]);
+
+document.write("el nuevo link es : " + nuevoLink);
 for(var i = 0; i<link.length-1; i++){
     if(link[i] == '-'){
         document.write("hay un guion" + link[i]);
+        var nuevoLink = link.replace("-", "");
     }
 }
