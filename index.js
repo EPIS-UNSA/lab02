@@ -42,7 +42,7 @@ document.write("faltan " + faltan + " dias para el aniversario de Arequipa");
 */
 
 // EJERCICIO NRO 4
-
+/*
 var link = prompt("ingrese la url del meet");
 for(var i = 0; i<link.length-1; i++){
     if(link[i] == '-'){
@@ -50,3 +50,11 @@ for(var i = 0; i<link.length-1; i++){
     }    
 }
 document.write("El nuevo link es : " + link);
+*/
+// JERCICIO NRO 5
+
+function crearTabla(){
+    var filas=parseInt(prompt("Insertar cuantas filas tendrá la tabla"));
+    var columnas= parseInt(prompt("Insertar cuantas columnas tendrá la tabla"));
+    
+}
