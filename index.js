@@ -62,6 +62,7 @@ function crearTabla(){
 
         for(var j=0; j<columnas; j++){
             var celda = filaActual.insertCell(j);
+            celda.innerHTML = 30;
         }
         
     }
