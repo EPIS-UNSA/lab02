@@ -57,4 +57,12 @@ function crearTabla(){
     var filas=parseInt(prompt("Insertar cuantas filas tendrá la tabla"));
     var columnas= parseInt(prompt("Insertar cuantas columnas tendrá la tabla"));
     
+    for(var i = 0; i < filas; i++){
+        var filaActual = document.getElementById("tablaDatos").insertRow(i);
+
+        for(var j=0; j<columnas; j++){
+            var celda = filaActual.insertCell(j);
+        }
+        
+    }
 }
