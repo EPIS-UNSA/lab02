@@ -64,6 +64,15 @@ function crearTabla(){
             var celda = filaActual.insertCell(j);
             celda.innerHTML = 30;
         }
-        
     }
 }
+function sumarTodo(){
+    var resultado;
+    for(var i=0; i<filas; i++){
+        for(var j=0; j<columnas; j++){
+                resultado=resultado + celda.valor;
+        }
+    }
+    return resultado;
+}            
+
